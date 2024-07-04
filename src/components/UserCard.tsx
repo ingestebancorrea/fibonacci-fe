@@ -37,16 +37,14 @@ export const UserCard = () => {
                                     Teléfono: {userItem.phone}
                                 </Typography>
                             </Box>
-                            <Box sx={{ display: 'flex', flexDirection: 'row', marginTop: 2 }}>
-                                <LocationOnOutlinedIcon sx={{ marginRight: 1 }} />
+
+                            <Box sx={{ display: "flex", alignItems: 'flex-start', marginTop: '5px' }}>
+                                <LocationOnOutlinedIcon sx={{ marginRight: 1 }} />Ubicación
+                            </Box>
+
+                            <Box sx={{ display: "flex", alignItems: 'flex-start', marginTop: '5px' }}>
                                 <Typography variant="body1" color="text.third">
-                                    País: {userItem.location.country}
-                                </Typography>
-                                <Typography variant="body1" color="text.third">
-                                    Estado: {userItem.location.state}
-                                </Typography>
-                                <Typography variant="body1" color="text.third">
-                                    Ciudad: {userItem.location.city}
+                                    {userItem.location.country} - {userItem.location.city}, {userItem.location.state}
                                 </Typography>
                             </Box>
                         </CardContent>
