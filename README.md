@@ -49,7 +49,7 @@ VITE_RANDOM_USER_API=http://localhost:8000/api/  por  ejemplo
     npm run dev
 
 # Enlace explicación de front + integración con back
-https://drive.google.com/file/d/1ZvOKWc5FfpPL3ei7AXjeikNjmJM-EbND/view?usp=sharing
+https://1drv.ms/v/c/f524018c4406d934/EY2NIuUNAhxMqj366ack-o0BxXmbkR96e-njPBLz8skmQw?e=lMLE92
 
 ## Autores ✒️
 * **Esteban Correa Pereira** - *Desarrollador Full Stack* -  GitHub: [ingestebancorrea](https://github.com/ingestebancorrea)
