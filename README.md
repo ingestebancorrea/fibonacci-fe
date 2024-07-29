@@ -1,6 +1,6 @@
 # Random Front
 
-El siguiente proyecto posee las UI de random user.
+El siguiente proyecto posee las UI de fibonacci-fe.
 
 ### Requerimientos de software
 

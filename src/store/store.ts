@@ -1,10 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import { userSlice } from './user/userSlice';
+import { fibonacciApi } from './api/fibonacciApi';
 
 export const store = configureStore({
   reducer: {
-   user: userSlice.reducer
+    [fibonacciApi.reducerPath]: fibonacciApi.reducer
   },
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(fibonacciApi.middleware),
 });
 
 export type RootState = ReturnType<typeof store.getState>;
